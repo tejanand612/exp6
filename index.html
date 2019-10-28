@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css6.css" rel="stylesheet">
+        <script src="javascriptexp6.js"></script>
+    </head>
+    <body>
+        <div id="clock">
+            <h1 id="clock">Digital Clock</h1>
+            <span id="time"></span>
+        </div>
+        
+        <div>
+            <p id="bgclr">in case you didn't notice, its Dynamic Background!</p>    
+        </div>
+        <div>
+            <h1 id="fs">
+                Change Font Size!
+            </h1>
+            <p id="p1" onmouseover="sizeinc()" onmouseout="sizedec()">
+                Move cursor over me to zoom in ... 
+            </p>
+        </div>
+        <div>
+            <img id="car" src="car.jpg" style="left: 5px;" height="300" width="300">
+        </div>
+       
+        <button onclick="move()">Move</button>
+        <button onclick="stop()">Stop</button>
+        <br><br>
+        <button id="clickid" onclick="show()">Click!</button>
+        <div id="array">
+        </div>
+    </body>
+</html>

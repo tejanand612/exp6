@@ -1,0 +1,51 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+#bgclr{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: TimesNewRoman;
+}
+
+#clock{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Century Gothic;
+    
+}
+#time{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    align-content: center;
+}
+
+#car{
+    position: relative;
+    
+}
+#clickid{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+}
+#fs{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: Ariel;
+    text-align: center;
+}
+#p1{
+    font-family: Ariel;
+    text-align: center;
+}
